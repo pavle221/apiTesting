@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  },
+  "name": "cypressAutomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pavle",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "xml2js": "^0.6.2"
+  }
+}
