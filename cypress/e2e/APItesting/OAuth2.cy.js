@@ -33,7 +33,7 @@ describe('OAuth2 authentications', () => {
         .then((response) => {
             //access_token=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&scope=&token_type=bearer
             const params = response.body.split('&') //splituje na ono pre enda i ono posle enda
-            accessToken = params[0].split('=') [1] //splituje na ono pre equala i posle, a ova jedinica znaci da trazim ono posle equala tj token
+            //accessToken = params[0].split('=') [1] //splituje na ono pre equala i posle, a ova jedinica znaci da trazim ono posle equala tj token
             
         })
     })
