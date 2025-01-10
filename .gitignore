@@ -5,7 +5,7 @@ cypress/screenshots/
 cypress/videos/
 cypress/logs/
 cypress/results/
-cypress.env.json
+#cypress.env.json
 cypress.env.local.json
 cypress.env.main.json 
 cypress\e2e\APItesting\authentications.cy.js

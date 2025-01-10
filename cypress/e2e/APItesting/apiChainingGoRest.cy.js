@@ -7,7 +7,7 @@
 
 
 describe('GoRest API Chaining', () => {
-    const authToken = 'Bearer 310c5a4a2ba02cdda57908f5706ed3846da175f5e6ade781a377d8d707a656cf'
+    const authToken = 'Bearer 310c5a4a2ba02cdda57908f5706ed3846da175f5e6ade781a377d8d707a656cf' //ovo moze na keeper i cypress.env.json
 
     it('Create update and delete a user', () => {
 

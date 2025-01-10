@@ -13,7 +13,7 @@ describe('Page Object Model', () => {
     })
 
     //pom prica
-    it('Login page POM', () => {
+    it.only('Login page POM', () => {
         cy.visit('https://opensource-demo.orangehrmlive.com')
         const ln = new login()
         ln.setUserName("Admin")
@@ -23,7 +23,7 @@ describe('Page Object Model', () => {
     })
 
     //pom prica with fixtures
-    it.only('Login page POM using fixtures', () => {
+    it('Login page POM using fixtures', () => {
         cy.visit('https://opensource-demo.orangehrmlive.com')
         cy.fixture('orangehrm.json').then((data) => {
             const ln = new login()
